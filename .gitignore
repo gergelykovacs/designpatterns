@@ -1,0 +1,87 @@
+#
+# Git Ignore File
+#
+# Include your project-specific ignores in this file.
+# Read about how to use .gitignore:
+# 	https://help.github.com/articles/ignoring-files
+#	http://git-scm.com/docs/gitignore
+# --
+# See the GENERAL and PROJECT SPEC. sections and use them.
+#
+
+#
+# GENERAL IGNORE SECTION
+# ======================
+#
+
+# Compiled source files are ignored.
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Compressed files are ignored.
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Log files are ignored.
+*.log
+
+# Database files are ignored.
+*.sql
+*.sqlite
+
+# OS generated files are ignored.
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor generated temp. files are ignored.
+*.swp
+*~
+
+# Webserver used access files are not tracked.
+.ht*
+.access
+.password
+
+#
+# PROJECT SPECIFIC IGNORE SECTION
+# ===============================
+#
+
+# Image files are ignored.
+*.png
+*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.gif
+*.GIF
+*.ico
+
+# Docs and binary files are ignored.
+*.swf
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+
+# Directory and symlink that are ignored.
+# Directory ends with trailing slash while it's symlink twin pair does not.
+bin/
+bin
