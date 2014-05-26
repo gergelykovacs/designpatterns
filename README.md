@@ -25,7 +25,7 @@ List of GoF patterns by types
 *Creational patterns are ones that create objects for you, rather than having you instantiate objects directly. 
 This gives your program more flexibility in deciding which objects need to be created for a given case.*
 
-- **Abstract Factory** groups object factories that have a common theme.
+- ~**Abstract Factory** groups object factories that have a common theme.
 - **Builder** constructs complex objects by separating construction and representation.
 - ~**Factory Method** creates objects without specifying the exact class to create.
 - **Prototype** creates objects by cloning an existing object.
