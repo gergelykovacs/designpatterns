@@ -1,3 +1,11 @@
+/**
+ * In this example a simple driving strategy is used with the `Speed Up` and 
+ * `Slow Down` strategies and the contexts of this situation are cars that can 
+ * perform these strategies. (Factory also should be used for a nice solution but 
+ * design patterns are not bind here.) 
+ * 
+ * @author Gergely Kovacs <anonymous.gergo@gmail.com>
+ */
 import be.whatshould.designpatterns.behavioral.StrategyDriveContext;
 import be.whatshould.designpatterns.etc.*;
 
@@ -7,22 +15,20 @@ public class MainStrategyDrive {
 	}
 	
 	public static void main(String[] args) {
-		StrategyDriveContext car1 = new StrategyDriveContext("Car1");
-		StrategyDriveContext car2 = new StrategyDriveContext("Car2");
+		// Initialize two cars.
+		StrategyDriveContext car1 = new StrategyDriveContext("The Car 1");
+		StrategyDriveContext car2 = new StrategyDriveContext();
 		
-		car1.setAction(new StrategyDriveSpeedUp());
-		car1.doCommand();
-		car2.setAction(new StrategyDriveSpeedUp());
-		car2.doCommand();
+		System.out.println("Cars are ready to race.\n");
 		
-		car1.setAction(new StrategyDriveSpeedUp());
-		car1.doCommand();
-		car2.setAction(new StrategyDriveSlowDown());
-		car2.doCommand();
+		// Order the cars to perform their chosen strategies. 
+		car1.setAction(new StrategyDriveSpeedUp()).doCommand();
+		car2.setAction(new StrategyDriveSpeedUp()).doCommand();
 		
-		car1.setAction(new StrategyDriveSlowDown());
-		car1.doCommand();
-		car2.setAction(new StrategyDriveSpeedUp());
-		car2.doCommand();
+		car1.setAction(new StrategyDriveSpeedUp()).doCommand();
+		car2.setAction(new StrategyDriveSlowDown()).doCommand();
+		
+		car1.setAction(new StrategyDriveSlowDown()).doCommand();
+		car2.setAction(new StrategyDriveSpeedUp()).doCommand();
 	}
 }

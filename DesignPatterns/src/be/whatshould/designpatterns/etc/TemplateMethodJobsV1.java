@@ -1,3 +1,9 @@
+/**
+ * Specialization of the abstract Template Method pattern and the 
+ * desired algorithms are implemented.
+ *  
+ * @author Gergely Kovacs <anonymous.gergo@gmail.com>
+ */
 package be.whatshould.designpatterns.etc;
 
 import be.whatshould.designpatterns.behavioral.TemplateMethodV1;

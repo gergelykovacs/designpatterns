@@ -1,3 +1,8 @@
+/**
+ * Singleton (single instance) main class.
+ * 
+ * @author Gergely Kovacs <anonymous.gergo@gmail.com>
+ */
 import be.whatshould.designpatterns.creational.Singleton;
 
 public class MainSingleton {
@@ -6,7 +11,7 @@ public class MainSingleton {
 	}
 	
 	public static void main(String[] args) {
-		// instantiation is only by its factory method 
+		// instantiation is only by its factory method
 		Singleton s1 = Singleton.getInstance();
 		Singleton s2 = Singleton.getInstance();
 		
