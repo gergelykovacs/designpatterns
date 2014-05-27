@@ -5,10 +5,10 @@
  *  
  * @author Gergely Kovacs <anonymous.gergo@gmail.com>
  */
-import be.whatshould.designpatterns.behavioral.TemplateMethodV1;
-import be.whatshould.designpatterns.behavioral.TemplateMethodV2;
-import be.whatshould.designpatterns.etc.TemplateMethodJobsV1;
-import be.whatshould.designpatterns.etc.TemplateMethodJobsV2;
+import be.whatshould.designpatterns.behavioral.templatemethod.TemplateMethodV1;
+import be.whatshould.designpatterns.behavioral.templatemethod.TemplateMethodV2;
+import be.whatshould.designpatterns.etc.templatemethod.TemplateMethodJobsV1;
+import be.whatshould.designpatterns.etc.templatemethod.TemplateMethodJobsV2;
 
 public class MainTemplateMethod {
 	

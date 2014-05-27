@@ -6,8 +6,10 @@
  * 
  * @author Gergely Kovacs <anonymous.gergo@gmail.com>
  */
-import be.whatshould.designpatterns.behavioral.StrategyDriveContext;
+import be.whatshould.designpatterns.behavioral.strategy.StrategyDriveContext;
 import be.whatshould.designpatterns.etc.*;
+import be.whatshould.designpatterns.etc.strategy.StrategyDriveSlowDown;
+import be.whatshould.designpatterns.etc.strategy.StrategyDriveSpeedUp;
 
 public class MainStrategyDrive {
 	

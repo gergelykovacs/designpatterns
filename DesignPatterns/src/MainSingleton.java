@@ -3,7 +3,7 @@
  * 
  * @author Gergely Kovacs <anonymous.gergo@gmail.com>
  */
-import be.whatshould.designpatterns.creational.Singleton;
+import be.whatshould.designpatterns.creational.singleton.Singleton;
 
 public class MainSingleton {
 	
