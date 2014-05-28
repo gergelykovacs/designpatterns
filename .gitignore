@@ -85,3 +85,5 @@ Thumbs.db
 # Directory ends with trailing slash while it's symlink twin pair does not.
 bin/
 bin
+.metadata
+.metadata/
