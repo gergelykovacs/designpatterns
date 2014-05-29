@@ -20,7 +20,7 @@ of the patterns)* and in Eclips pick one, right-click on it and `Run As > Java A
 
 The language is used: *Java*
 
-If a pattern is implemented I will mark that by a simple `~` sign before its name *(implemented: 8/23)*.
+If a pattern is implemented I will mark that by a simple `~` sign before its name *(implemented: 9/23)*.
 
 List of GoF patterns by types
 -----------------------------
@@ -41,7 +41,7 @@ This gives your program more flexibility in deciding which objects need to be cr
 *These concern class and object composition. 
 They use inheritance to compose interfaces and define ways to compose objects to obtain new functionality.*
 
-- **Adapter** allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class.
+- ~**Adapter** allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class.
 - ~**Bridge** decouples an abstraction from its implementation so that the two can vary independently.
 - **Composite** composes zero-or-more similar objects so that they can be manipulated as one object.
 - ~**Decorator** dynamically adds/overrides behaviour in an existing method of an object.
