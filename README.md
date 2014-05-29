@@ -20,7 +20,7 @@ of the patterns)* and in Eclips pick one, right-click on it and `Run As > Java A
 
 The language is used: *Java*
 
-If a pattern is implemented I will mark that by a simple `~` sign before its name *(implemented: 11/23)*.
+If a pattern is implemented I will mark that by a simple `~` sign before its name *(implemented: 12/23)*.
 
 The *UML* diagram collection is available here: [GoF Design Pattern UMLs](https://www.evernote.com/shard/s391/sh/71a97ec4-a15d-4c1e-9b78-0cc32d5fced5/9108677f96380fe4074717d53f968be0 "GoF Design Pattern UMLs").
 
@@ -56,7 +56,7 @@ They use inheritance to compose interfaces and define ways to compose objects to
 *Most of these design patterns are specifically concerned with communication between objects.*
 
 - **Chain of responsibility** delegates commands to a chain of processing objects.
-- **Command** creates objects which encapsulate actions and parameters.
+- ~**Command** creates objects which encapsulate actions and parameters.
 - **Interpreter** implements a specialized language.
 - ~**Iterator** accesses the elements of an object sequentially without exposing its underlying representation.
 - **Mediator** allows loose coupling between classes by being the only class that has detailed knowledge of their methods.
