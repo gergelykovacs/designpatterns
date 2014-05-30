@@ -20,7 +20,7 @@ of the patterns)* and in Eclips pick one, right-click on it and `Run As > Java A
 
 The language is used: *Java*
 
-If a pattern is implemented it will be checked *(implemented: 12/23)*.
+If a pattern is implemented it will be checked *(implemented: 13/23)*.
 
 The *UML* diagram collection is available here: [GoF Design Pattern UMLs](https://www.evernote.com/shard/s391/sh/71a97ec4-a15d-4c1e-9b78-0cc32d5fced5/9108677f96380fe4074717d53f968be0 "GoF Design Pattern UMLs").
 
@@ -60,7 +60,7 @@ They use inheritance to compose interfaces and define ways to compose objects to
 - [ ] **Interpreter** implements a specialized language.
 - [x] **Iterator** accesses the elements of an object sequentially without exposing its underlying representation.
 - [ ] **Mediator** allows loose coupling between classes by being the only class that has detailed knowledge of their methods.
-- [ ] **Memento** provides the ability to restore an object to its previous state (undo).
+- [x] **Memento** provides the ability to restore an object to its previous state (undo).
 - [x] **Observer** is a publish/subscribe pattern which allows a number of observer objects to see an event.
 - [ ] **State** allows an object to alter its behavior when its internal state changes.
 - [x] **Strategy** allows one of a family of algorithms to be selected on-the-fly at runtime.
