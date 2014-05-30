@@ -20,7 +20,7 @@ of the patterns)* and in Eclips pick one, right-click on it and `Run As > Java A
 
 The language is used: *Java*
 
-If a pattern is implemented it will be checked *(implemented: 13/23)*.
+If a pattern is implemented it will be checked *(implemented: 14/23)*.
 
 The *UML* diagram collection is available here: [GoF Design Pattern UMLs](https://www.evernote.com/shard/s391/sh/71a97ec4-a15d-4c1e-9b78-0cc32d5fced5/9108677f96380fe4074717d53f968be0 "GoF Design Pattern UMLs").
 
@@ -55,7 +55,7 @@ They use inheritance to compose interfaces and define ways to compose objects to
 
 *Most of these design patterns are specifically concerned with communication between objects.*
 
-- [ ] **Chain of responsibility** delegates commands to a chain of processing objects.
+- [x] **Chain Of Responsibility** delegates commands to a chain of processing objects.
 - [x] **Command** creates objects which encapsulate actions and parameters.
 - [ ] **Interpreter** implements a specialized language.
 - [x] **Iterator** accesses the elements of an object sequentially without exposing its underlying representation.
@@ -64,6 +64,6 @@ They use inheritance to compose interfaces and define ways to compose objects to
 - [x] **Observer** is a publish/subscribe pattern which allows a number of observer objects to see an event.
 - [ ] **State** allows an object to alter its behavior when its internal state changes.
 - [x] **Strategy** allows one of a family of algorithms to be selected on-the-fly at runtime.
-- [x] **Template method** defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.
+- [x] **Template Method** defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.
 - [ ] **Visitor** separates an algorithm from an object structure by moving the hierarchy of methods into one object.
 
