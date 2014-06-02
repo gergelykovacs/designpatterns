@@ -20,7 +20,7 @@ of the patterns)* and in Eclips pick one, right-click on it and `Run As > Java A
 
 The language is used: *Java*
 
-If a pattern is implemented it will be checked *(implemented: 15/23)*.
+If a pattern is implemented it will be checked *(implemented: 16/23)*.
 
 The *UML* diagram collection is available here: [GoF Design Pattern UMLs](https://www.evernote.com/shard/s391/sh/71a97ec4-a15d-4c1e-9b78-0cc32d5fced5/9108677f96380fe4074717d53f968be0 "GoF Design Pattern UMLs").
 
@@ -35,7 +35,7 @@ This gives your program more flexibility in deciding which objects need to be cr
 - [x] **Abstract Factory** groups object factories that have a common theme.
 - [ ] **Builder** constructs complex objects by separating construction and representation.
 - [x] **Factory Method** creates objects without specifying the exact class to create.
-- [ ] **Prototype** creates objects by cloning an existing object.
+- [x] **Prototype** creates objects by cloning an existing object.
 - [x] **Singleton** restricts object creation for a class to only one instance.
 
 ### Structural
