@@ -20,7 +20,7 @@ of the patterns)* and in Eclips pick one, right-click on it and `Run As > Java A
 
 The language is used: *Java*
 
-If a pattern is implemented it will be checked *(implemented: 19/23)*.
+If a pattern is implemented it will be checked *(implemented: 20/23)*.
 
 The *UML* diagram collection is available here: [GoF Design Pattern UMLs](https://www.evernote.com/shard/s391/sh/71a97ec4-a15d-4c1e-9b78-0cc32d5fced5/9108677f96380fe4074717d53f968be0 "GoF Design Pattern UMLs").
 
@@ -45,7 +45,7 @@ They use inheritance to compose interfaces and define ways to compose objects to
 
 - [x] **Adapter** allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class.
 - [x] **Bridge** decouples an abstraction from its implementation so that the two can vary independently.
-- [ ] **Composite** composes zero-or-more similar objects so that they can be manipulated as one object.
+- [x] **Composite** composes zero-or-more similar objects so that they can be manipulated as one object.
 - [x] **Decorator** dynamically adds/overrides behaviour in an existing method of an object.
 - [x] **Facade** provides a simplified interface to a large body of code.
 - [x] **Flyweight** reduces the cost of creating and manipulating a large number of similar objects.
