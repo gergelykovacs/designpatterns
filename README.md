@@ -1,5 +1,5 @@
-Design Patterns
-===============
+GoF Design Patterns
+===================
 
 **Simple implementations of GoF Design Patterns.**
 
@@ -19,8 +19,6 @@ of the patterns)* and in Eclips pick one, right-click on it and `Run As > Java A
 *(and check out the Console tab for output)*.
 
 The language is used: *Java*
-
-If a pattern is implemented it will be checked *(implemented: 22/23)*.
 
 The *UML* diagram collection is available here: [GoF Design Pattern UMLs](https://www.evernote.com/shard/s391/sh/71a97ec4-a15d-4c1e-9b78-0cc32d5fced5/9108677f96380fe4074717d53f968be0 "GoF Design Pattern UMLs").
 
@@ -65,5 +63,16 @@ They use inheritance to compose interfaces and define ways to compose objects to
 - [x] **State** allows an object to alter its behavior when its internal state changes.
 - [x] **Strategy** allows one of a family of algorithms to be selected on-the-fly at runtime.
 - [x] **Template Method** defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.
-- [ ] **Visitor** separates an algorithm from an object structure by moving the hierarchy of methods into one object.
+- [x] **Visitor** separates an algorithm from an object structure by moving the hierarchy of methods into one object.
+
+#Further Plans
+
+### Non-GoF Patterns
+
+*Non Gang of Four* patterns will be implemented later.
+
+### Analysis and Application of Patterns
+
+Analysis, use case studies will be available later with pros and cons about application of Design Patterns 
+together with examples on how to use them together to create a coherent and reusable implementations.
 
