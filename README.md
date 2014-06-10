@@ -12,7 +12,7 @@ the scenes. That is the reason why *Generics*, *Collections*, *Reflection API* o
 tools and language features are tied to be avoided to let focus on the structure of the patterns themselves.
 
 Eclipse is used for implementation hence DesignPatterns direcory can be imported to an Eclipse workspace. 
-EGit is also used however it is not necessary at all.
+[EGit](http://www.eclipse.org/egit/ "EGit") is also used however it is not necessary at all.
 
 In the default package `DesignPatterns/src/` there will be `Main*.java` named files *(so called wrappers for each 
 of the patterns)* and in Eclips pick one, right-click on it and `Run As > Java Application` will execute it 
@@ -65,11 +65,11 @@ They use inheritance to compose interfaces and define ways to compose objects to
 - [x] **Template Method** defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.
 - [x] **Visitor** separates an algorithm from an object structure by moving the hierarchy of methods into one object.
 
-#Further Plans
+# Further Plans
 
 ### Non-GoF Patterns
 
-*Non Gang of Four* patterns will be implemented later.
+Non- *Gang of Four* patterns will be implemented later.
 
 ### Analysis and Application of Patterns
 
