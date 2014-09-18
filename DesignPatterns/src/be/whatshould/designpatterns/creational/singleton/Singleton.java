@@ -13,7 +13,7 @@ public class Singleton {
 	
 	private String name = Singleton.class.getCanonicalName();
 	
-	// Constructor must be private.
+	// Constructor should not be available outside.
 	private Singleton() {
 	}
 	
@@ -33,5 +33,10 @@ public class Singleton {
 	
 	public void setName(String n) {
 		name = n;
+	}
+	
+	@Override
+	public final Object clone() throws CloneNotSupportedException {
+		throw new CloneNotSupportedException();
 	}
 }

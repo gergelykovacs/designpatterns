@@ -74,5 +74,8 @@ Non- *Gang of Four* patterns will be implemented later.
 ### Analysis and Application of Patterns
 
 Analysis, use case studies will be available later with pros and cons about application of Design Patterns 
-together with examples on how to use them together to create a coherent and reusable implementations.
+to cooperate with each other and hints on how to use them to create a coherent and reusable implementations.
+
+*Ideas are welcomed of course!*
+
 
