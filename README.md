@@ -9,10 +9,10 @@ the patterns presented in the *Gang of Four* book through easy *(dummy)* example
 Patterns are not miexed to work together as it would be in a real life situation like 
 Strategy is commonly used with Factory and so on. The intention is to understand the key ideas behind 
 the scenes. That is the reason why *Generics*, *Collections*, *Reflection API* or the other powerful Java 
-tools and language features are tied to be avoided to let focus on the structure of the patterns themselves.
+tools and language features are tried to be avoided to let focus on the structure of the patterns themselves.
 
 Eclipse is used for implementation hence DesignPatterns direcory can be imported to an Eclipse workspace. 
-[EGit](http://www.eclipse.org/egit/ "EGit") is also used however it is not necessary at all.
+[EGit](http://www.eclipse.org/egit/ "EGit") can be used however it is not necessary at all.
 
 In the default package `DesignPatterns/src/` there will be `Main*.java` named files *(so called wrappers for each 
 of the patterns)* and in Eclips pick one, right-click on it and `Run As > Java Application` will execute it 
