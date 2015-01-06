@@ -9,6 +9,8 @@ import be.whatshould.designpatterns.creational.prototype.ObjectCopy;
 
 public class SquareCloneableV3 extends ObjectCopy {
 	
+	private static final long serialVersionUID = 5535695939781111359L;
+	
 	private String name = null;
 	private int width = 0;
 	

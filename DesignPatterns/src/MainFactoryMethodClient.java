@@ -4,7 +4,6 @@
  *  
  * @author Gergely Kovacs  <anonymous.gergo@gmail.com>
  */
-import be.whatshould.designpatterns.creational.*;
 import be.whatshould.designpatterns.creational.factorymethod.AbstractFactoryMethod;
 import be.whatshould.designpatterns.creational.factorymethod.FactoryMethod;
 import be.whatshould.designpatterns.etc.enums.ProductTypes;

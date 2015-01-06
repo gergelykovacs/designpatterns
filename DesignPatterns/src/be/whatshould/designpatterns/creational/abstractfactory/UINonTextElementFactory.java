@@ -5,7 +5,6 @@
  */
 package be.whatshould.designpatterns.creational.abstractfactory;
 
-import be.whatshould.designpatterns.etc.*;
 import be.whatshould.designpatterns.etc.abstractfactory.UIImageView;
 import be.whatshould.designpatterns.etc.abstractfactory.UISurfaceView;
 import be.whatshould.designpatterns.etc.enums.UIElements;

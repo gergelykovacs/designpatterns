@@ -38,8 +38,11 @@ public class HisSqlStorage {
 	private void dumpStorage() {
 		System.out.println("\nStorage dump of His:\n");
 		
+		@SuppressWarnings("rawtypes")
 		Iterator it = storage.entrySet().iterator();
+		
 		while(it.hasNext()) {
+			@SuppressWarnings("unchecked")
 			Map.Entry<String,String> entry = (Map.Entry<String, String>) it.next();
 			System.out.println("#key: "+ entry.getKey() +" #value: "+ entry.getValue());
 		}

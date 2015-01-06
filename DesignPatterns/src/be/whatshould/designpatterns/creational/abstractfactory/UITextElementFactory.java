@@ -5,7 +5,6 @@
  */
 package be.whatshould.designpatterns.creational.abstractfactory;
 
-import be.whatshould.designpatterns.etc.*;
 import be.whatshould.designpatterns.etc.abstractfactory.UIButton;
 import be.whatshould.designpatterns.etc.abstractfactory.UIEditText;
 import be.whatshould.designpatterns.etc.abstractfactory.UITextClock;

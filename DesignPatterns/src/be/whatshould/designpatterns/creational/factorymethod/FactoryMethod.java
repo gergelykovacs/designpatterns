@@ -6,7 +6,6 @@
 package be.whatshould.designpatterns.creational.factorymethod;
 
 import be.whatshould.designpatterns.creational.factorymethod.AbstractFactoryMethod;
-import be.whatshould.designpatterns.etc.*;
 import be.whatshould.designpatterns.etc.enums.ProductTypes;
 import be.whatshould.designpatterns.etc.factorymethod.ProductA;
 import be.whatshould.designpatterns.etc.factorymethod.ProductB;

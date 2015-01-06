@@ -15,7 +15,6 @@
  *      
  * @author Gergely Kovacs <anonymous.gergo@gmail.com>
  */
-import be.whatshould.designpatterns.creational.prototype.*;
 import be.whatshould.designpatterns.etc.prototype.*;
 
 public class MainPrototype {

@@ -6,7 +6,6 @@
  *  
  * @author Gergely Kovacs <anonymous.gergo@gmail.com>
  */
-import be.whatshould.designpatterns.behavioral.memento.*;
 import be.whatshould.designpatterns.etc.memento.*;
 
 public class MainMemento {

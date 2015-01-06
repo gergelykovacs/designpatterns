@@ -4,12 +4,10 @@
  *  
  * @author Gergely Kovacs  <anonymous.gergo@gmail.com>
  */
-import be.whatshould.designpatterns.creational.*;
 import be.whatshould.designpatterns.creational.abstractfactory.AbstractFactory;
 import be.whatshould.designpatterns.creational.abstractfactory.AbstractFactoryCreator;
 import be.whatshould.designpatterns.creational.abstractfactory.AbstractUINonTextElement;
 import be.whatshould.designpatterns.creational.abstractfactory.AbstractUITextElement;
-import be.whatshould.designpatterns.etc.*;
 import be.whatshould.designpatterns.etc.enums.UIElementTypes;
 import be.whatshould.designpatterns.etc.enums.UIElements;
 

@@ -1,13 +1,11 @@
 /**
  * It represents a scrollbar that is a simple Window element.
  *  
- * @author gkovacs
+ * @author Gergely Kovacs <anonymous.gergo@gmail.com>
  */
 package be.whatshould.designpatterns.etc.decorator;
 
-import be.whatshould.designpatterns.structural.decorator.WindowInterface;
-
-public class ScrollBar implements WindowItemInterface, Comparable {
+public class ScrollBar implements WindowItemInterface, Comparable<Object> {
 	
 	public ScrollBar() {
 	}

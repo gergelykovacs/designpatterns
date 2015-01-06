@@ -10,7 +10,6 @@ import be.whatshould.designpatterns.etc.decorator.ScrollBar;
 public class ScrollableWindow extends ExtendedWindow {
 	
 	private WindowInterface window = null;
-	private ScrollBar scrollBar = null;
 	
 	public ScrollableWindow(WindowInterface window) {
 		super(window);
@@ -18,14 +17,12 @@ public class ScrollableWindow extends ExtendedWindow {
 	}
 
 	@Override
-	public void render() {
-		
+	public void render() {		
 		addScrollBar();
 		super.render();
 	}
 	
 	private void addScrollBar() {
-		
 		window.subscribe(new ScrollBar());
 	}
 }
